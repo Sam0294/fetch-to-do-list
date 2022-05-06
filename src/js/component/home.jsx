@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "/workspace/react-hello/src/styles/index.css";
 
 const Home = () => {
 	const [tasks, setTasks] = useState("");
@@ -84,7 +85,7 @@ const Home = () => {
 									key={index}>
 									{todo.label}
 									<button
-										className="btn btn-light ml-80px"
+										className="btn btn-light ml-80px equis"
 										onClick={() => removeItem(index)}>
 										<i className="fas fa-times"></i>
 									</button>
